@@ -87,6 +87,8 @@ export default {
 }
 .button-margin{
   margin-left:250px;
+}
+.el-button{
   padding: 5px;
   border-radius:20px;
   

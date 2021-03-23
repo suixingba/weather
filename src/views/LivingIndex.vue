@@ -2,7 +2,7 @@
   <div class="container">
       <h3 class="title">生活指数</h3>
     <el-button @click="change('2')"
-      class="button"><i class="el-icon-arrow-left"></i
+      class="button button-margin"><i class="el-icon-arrow-left"></i
     ></el-button>
     <el-button @click="change('1')"
     class="button"
@@ -85,7 +85,7 @@ export default {
     border-radius: 50%;
     margin-top: 8px;
 }
-.el-button{
+.button-margin{
   margin-left:250px;
   padding: 5px;
   border-radius:20px;
